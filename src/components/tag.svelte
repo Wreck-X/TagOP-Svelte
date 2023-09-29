@@ -3,8 +3,8 @@
 </script>
 
 <div class="flex flex-col items-center" >
-    <div class="tag h-14 w-40 mx-28 rounded-lg cursor-pointer" on:click={() => {collapsed = !collapsed}}></div>
-    <div class={collapsed ? "extended w-40  top-1" :  "extend w-40  top-1"}></div>
+    <div class="tag h-14 w-full mx-28 rounded-lg cursor-pointer" on:click={() => {collapsed = !collapsed}}></div>
+    <div class={collapsed ? "extended w-full  top-1" :  "extend w-full  top-1"}></div>
 </div>
 
 <style>
